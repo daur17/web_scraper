@@ -1,0 +1,13 @@
+news_sites:
+  soy502:
+    url: https://www.soy502.com/
+    queries:
+      homepage_article_links: '.highlight a'
+      article_title: '.content-article h1'
+      article_body: '.body.tvads'
+  prensalibre:
+    url: http://www.prensalibre.com/
+    queries:
+      homepage_article_links: '.latest-news-content a'
+      article_title: '.sart-title'
+      article_body: '.sart-content'
